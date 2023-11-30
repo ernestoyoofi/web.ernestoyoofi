@@ -1,0 +1,124 @@
+.header_hero {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 14px;
+}
+.header_hero .header_hero_text {
+  width: 100%;
+  max-width: 500px;
+}
+.header_hero .header_hero_text .header_hero_text_oftitle {
+  font-size: 24px;
+}
+.header_hero .header_hero_text .header_hero_text_ofdesc {
+  font-size: 17px;
+}
+.banner_select_promotion {
+  width: 100%;
+  box-sizing: content-box;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  overflow-x: scroll;
+}
+.banner_select_promotion::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+.banner_select_promotion .banner_promotion_option {
+  width: 100%;
+  height: 320px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  padding: 25px;
+  transition: .3s;
+}
+.banner_select_promotion .banner_promotion_option .banner_card {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background-color: #ebebeb;
+  display: flex;
+  align-items: center;
+}
+.banner_select_promotion .banner_promotion_option .banner_card .banner_image {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.banner_select_promotion .banner_promotion_option .banner_card .banner_texted {
+  width: calc(100% - 330px);
+  padding: 4px 12px;
+}
+.banner_select_promotion .banner_promotion_option .banner_card .banner_texted h3 {
+  margin-top: 0px;
+  margin-bottom: 2px;
+  padding: 0px;
+}
+.banner_select_promotion .banner_promotion_option .banner_card .banner_texted p {
+  margin: 12px 0px;
+}
+.banner_select_promotion .banner_promotion_option .banner_card .banner_texted a {
+  text-decoration: none;
+  color: #1900ff;
+  border: 2px solid #1900ff;
+  padding: 6px 18px;
+  border-radius: 18px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+}
+@media only screen and (max-width: 600px) {
+  .banner_select_promotion .banner_promotion_option .banner_card .banner_image {
+    width: 0px;
+  }
+}
+.banner_promotion_btn {
+  width: 100%;
+  height: 0px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.banner_promotion_btn .banner_btn_gaps {
+  width: calc(100% - calc(50px * 2));
+}
+.banner_promotion_btn .banner_btn_left, .banner_promotion_btn .banner_btn_right {
+  width: 50px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 10%);
+}
+.banner_promotion_btn .banner_btn_right {
+  background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 10%);
+}
+.banner_promotion_btn button {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  user-select: none;
+  background-color: #fafafa;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  transition: .3s;
+  box-shadow: rgba(0,0,0,0.0) 0px 2px 12px;
+}
+.banner_promotion_btn button:hover {
+  box-shadow: rgba(0,0,0,0.1) 0px 7px 12px;
+  scale: 1.2;
+}
+.banner_promotion_btn button:active {
+  box-shadow: rgba(0,0,0,0.3) 0px 9px 12px;
+  scale: 1.3;
+}
