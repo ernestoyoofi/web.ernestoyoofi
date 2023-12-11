@@ -3,6 +3,10 @@ export const metadata = {
   description: "Hanya tulisan, apakah bermanfaat?, tidak tahu"
 }
 
-export default function BlogPageList() {
-  return <div></div>
+import BlogListCard from "~/layout/pages/BlogList"
+import { GetAllBlogPosts } from "~/lib/blog-post"
+export default async function BlogPageList() {
+  const data = await GetAllBlogPosts()
+
+  return <BlogListCard data={data}/>
 }

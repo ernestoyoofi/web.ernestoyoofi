@@ -77,6 +77,9 @@
   .banner_select_promotion .banner_promotion_option .banner_card .banner_image {
     width: 0px;
   }
+  .banner_select_promotion .banner_promotion_option .banner_card .banner_texted {
+    width: 100%;
+  }
 }
 .banner_promotion_btn {
   width: 100%;

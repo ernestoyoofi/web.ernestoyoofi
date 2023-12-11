@@ -4,6 +4,7 @@ import { useEffect } from "react"
 import Image from "next/image"
 import l from "./LandingPage.module.css"
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa6"
+import BlogListCard from "./BlogList"
 
 function ReactForPromotion() {
   useEffect(() => {
@@ -107,7 +108,7 @@ function ReactForPromotion() {
   </>
 }
 
-export default function LandingPage() {
+export default function LandingPage(props) {
   return <main>
     <div className="response">
       <div className={l.header_hero}>
@@ -117,6 +118,10 @@ export default function LandingPage() {
         </div>
       </div>
       <ReactForPromotion />
+      <center>
+        <h1>Blog Posts</h1>
+      </center>
+      <BlogListCard data={props.bloglist.slice(0, 9)}/>
     </div>
   </main>
 }

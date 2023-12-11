@@ -1,0 +1,59 @@
+.codecopy_box {
+  width: 100%;
+  padding: 9px 18px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+}
+.codecopy_box .headering_code {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.codecopy_box .headering_code p {
+  padding: 0; margin: 0;
+  font-weight: bold;
+}
+.codecopy_box .headering_code button {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #9e9e9e;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.codecopy_box .headering_code button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.codecopy_box .headering_code button [icon-interactive] {
+  display: none;
+}
+.codecopy_box .headering_code button[copy-is-active] {
+  border-color: #00ff4c;
+  color: #00ff4c;
+}
+.codecopy_box .warp_code_pre {
+  white-space: pre;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  background-color: #e6e6e6;
+  padding: 9px 14px;
+  border-radius: 6px;
+  margin: 0px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+}
+.codecopy_box .warp_code_pre * {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+}

@@ -2,6 +2,7 @@
 
 import l from "./footer.module.css"
 import { FaInstagram, FaSquareTwitter } from "react-icons/fa6"
+import _default from "~/default";
 
 export default function FooterSection() {
   return <footer className={l.footer_page}>
@@ -10,8 +11,8 @@ export default function FooterSection() {
         <h4>Ernestoyoofi © 2023</h4>
       </div>
       <div className={l.footer_sosmed}>
-        <a href="https://instagram.com/" target="_blank"><FaInstagram /></a>
-        <a href="https://instagram.com/" target="_blank"><FaSquareTwitter /></a>
+        <a href={_default.footer.instagram} target="_blank"><FaInstagram /></a>
+        <a href={_default.footer.twitter} target="_blank"><FaSquareTwitter /></a>
       </div>
     </div>
   </footer>

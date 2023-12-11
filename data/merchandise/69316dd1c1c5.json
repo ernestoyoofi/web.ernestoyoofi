@@ -1,0 +1,27 @@
+{
+  "id": "69316dd1c1c5",
+  "timecreate": 1701788019346,
+  "shoppers": {
+    "title": "Urip Urup Store",
+    "link_store": "https://www.tokopedia.com/uripurupstore"
+  },
+  "category": [
+    "Aksessoris",
+    "Survival Tools"
+  ],
+  "title": "Gelang Paracod",
+  "desc": "Gelang paracod digunakan untuk kalian yang suka kegiatan outdoor, dilengkapi dengan peluit, korek, dan tali diurai 3m",
+  "price": {
+    "value": 35000,
+    "currency": "IDR"
+  },
+  "seris_option": [
+    {
+      "text": "Ukuran",
+      "option": ["Pendek", "Panjang"]
+    }
+  ],
+  "icon": [
+    "/image-merchandise/product-c181322fccab9d7048efb41bcfffa605.jpeg"
+  ]
+}
