@@ -27,7 +27,7 @@ export default function NavigationBar() {
         <Link href="/" select-it={selectIt("home")}>Home</Link>
         <Link href="/blog" select-it={selectIt("blog")}>Blog</Link>
         <Link href="/project" select-it={selectIt("project")}>Project</Link>
-        <Link href="/merchandise" select-it={selectIt("merchandise")}>Shop</Link>
+        {/* <Link href="/merchandise" select-it={selectIt("merchandise")}>Shop</Link> */}
       </div>
     </div>
   </header>

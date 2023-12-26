@@ -24,11 +24,11 @@
   display: flex;
   height: 40px;
   align-items: center;
-  padding: 4px 12px;
+  padding: 4px calc(12px + 4px);
   padding-top: 8px;
 }
 .headers_page .pgd_icon .section_icon h3 {
-  font-size: 15px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
 }

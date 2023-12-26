@@ -15,7 +15,9 @@ export default function RootLayout({ children }) {
     <html lang="id">
       <body>
         <NavigationBar />
-        <AppLauncer>{children}</AppLauncer>
+        <main>
+          <AppLauncer>{children}</AppLauncer>
+        </main>
         <FooterSection />
         <Script
           strategy="afterInteractive"

@@ -1,0 +1,62 @@
+.allbackground {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+.content_app {
+  width: 100%;
+  max-width: 330px;
+}
+.cardview {
+  width: 100%;
+  max-width: 330px;
+  background-color: #ffffff;
+  border-radius: 9px;
+  overflow: hidden;
+}
+.cardview p {
+  margin: 0px;
+}
+.cardview_headbg {
+  width: 100%;
+  height: 120px;
+  background: url('/bg-beta.png');
+  background-size: 190px;
+  background-color: #dddddd;
+  opacity: 0.5;
+}
+.nametaghead {
+  width: 100%;
+}
+.cardview_headtext {
+  position: absolute;
+  width: 100%;
+  max-width: 330px;
+  height: 120px;
+  padding: 12px 16px;
+  opacity: 1;
+  z-index: 3;
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+.cardview_headtext h3 {
+  margin: 0px;
+  margin-bottom: 4px;
+}
+.cardview_headtext p {
+  font-size: 13px;
+  color: #424242;
+}
+.cardview_bodytext {
+  padding: 12px 16px;
+}
+.cardview_bodytext .cardtext_body {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0px;
+}

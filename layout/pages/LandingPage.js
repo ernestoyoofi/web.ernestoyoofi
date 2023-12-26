@@ -117,7 +117,7 @@ export default function LandingPage(props) {
           <p className={l.header_hero_text_ofdesc}>Aku hanya seorang <b>web developer</b> & seorang <b>fotografi</b> dan <b>videografi</b> asal <b>Yogyakarta</b></p>
         </div>
       </div>
-      <ReactForPromotion />
+      {/* <ReactForPromotion /> */}
       <center>
         <h1>Blog Posts</h1>
       </center>
