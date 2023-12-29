@@ -8,12 +8,26 @@
 body, html { 
   padding: 0;
   margin: 0;
+  color: #ffffff;
+}
+body {
+  background-color: #131313;
 }
 
 #trbtn-overlay-container-0 {
   position: absolute;
   visibility: hidden;
   top: 60px;
+}
+
+button {
+  background-color: #2a2eff;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  padding: 5px 16px;
+  border-radius: 9px;
+  cursor: pointer;
 }
 
 main {

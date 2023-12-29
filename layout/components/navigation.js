@@ -20,7 +20,8 @@ export default function NavigationBar() {
     <div className={l.response}>
       <div className={l.pgd_icon}>
         <div className={l.section_icon}>
-          <h3>Ernesto <span className={l.citical}>Yoofi</span></h3>
+          <h3>Ernesto Yoofi</h3>
+          {/* <h3>Ernesto <span className={l.citical}>Yoofi</span></h3> */}
         </div>
       </div>
       <div className={l.pgd_link}>

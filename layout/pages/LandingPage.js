@@ -5,6 +5,7 @@ import Image from "next/image"
 import l from "./LandingPage.module.css"
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa6"
 import BlogListCard from "./BlogList"
+import { useRouter } from "next/navigation"
 
 function ReactForPromotion() {
   useEffect(() => {
@@ -109,6 +110,7 @@ function ReactForPromotion() {
 }
 
 export default function LandingPage(props) {
+  const router = useRouter()
   return <main>
     <div className="response">
       <div className={l.header_hero}>
@@ -122,6 +124,9 @@ export default function LandingPage(props) {
         <h1>Blog Posts</h1>
       </center>
       <BlogListCard data={props.bloglist.slice(0, 9)}/>
+      <center>
+        <button onClick={() => router.push("/blog")}>Lihat lainnya...</button>
+      </center>
     </div>
   </main>
 }
