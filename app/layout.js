@@ -13,6 +13,7 @@ import Script from "next/script"
 export default function RootLayout({ children }) {
   return (
     <html lang="id">
+      <meta name="google-site-verification" content="wcC28rNmbYV1lR_OamoSTSVfx87bc4xPFDq_yZt62TA" />
       <body>
         <NavigationBar />
         <main>
