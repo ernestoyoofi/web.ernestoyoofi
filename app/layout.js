@@ -15,11 +15,12 @@ export default function RootLayout({ children }) {
     <html lang="id">
       <meta name="google-site-verification" content="wcC28rNmbYV1lR_OamoSTSVfx87bc4xPFDq_yZt62TA" />
       <body>
-        <NavigationBar />
-        <main>
-          <AppLauncer>{children}</AppLauncer>
-        </main>
-        <FooterSection />
+        <p>Upsss, Mohon Maaf, Situs Sedang Tidak Tersedia, Situs Sedang Dalam Perbaikan</p>
+        // <NavigationBar />
+        // <main>
+        //  <AppLauncer>{children}</AppLauncer>
+        // </main>
+        // <FooterSection />
         <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${_default.gaTracking}`}
